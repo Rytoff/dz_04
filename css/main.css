@@ -9,9 +9,72 @@ left & right columns #edeef0;
 * 	{
 	box-sizing: border-box;
 }
+body	{
+	font-size: small;
+}
 
-/*----------background----------*/
+/*---------- background ----------*/
 
 .block_h	{	height: 30px;	background-color: #128aa7;}
 .block_m	{	height: 146px;	background: linear-gradient(#1dcfe2, white);}
 .block_l	{	height: 846px;	background: linear-gradient(#3cc1d0, #0c739f);}
+
+/*---------- container ----------*/
+
+.container	{
+	position: relative;
+	background-color: white;
+	top: -1022px;
+	width: 1000px;
+	height: 176px;
+	margin: 0 auto;
+}
+.header	{
+	color: #379cb4;
+	font-family: Arial, sans-serif;
+	float: left;
+}
+.container .left	{
+	
+	width:	50%;
+	height: 176px;
+	background-color: white;
+	/*border: 1px solid red;*/
+	display: block;
+	background-image: url(../img/palma_edit.jpg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-x: center;
+}
+.left h1	{
+	padding-left: 30px;
+	padding-top: 50px;
+	font-family: 'Shadows Into Light Two';
+	font-size: 250%;
+	letter-spacing: 5px;
+	font-weight: bold;
+}
+.left h2	{
+	padding: 20px 94px;
+}
+.container .right	{
+	width:	50%;
+	height: 176px;
+	background-color: #f5f5f5;
+	/*border: 1px solid red;*/
+	display: block;
+}
+.container .image	{
+	clear: both;
+	background-image: url(../img/ocean.jpg);
+	background-repeat: no-repeat;
+	background-position-y: center;
+	background-size: cover;
+	height: 186px;
+}
+.container nav	{
+	height: 30px;
+	background-color: #333333;
+	box-shadow: 0 2px 4px gray;
+	border-bottom: 1px solid black;
+}
