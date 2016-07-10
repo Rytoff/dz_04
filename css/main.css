@@ -60,10 +60,78 @@ body	{
 .container .right	{
 	width:	50%;
 	height: 176px;
-	background-color: #f5f5f5;
-	/*border: 1px solid red;*/
 	display: block;
 }
+.right .contacts	{
+	float: right;
+	padding: 14px 27px;
+}
+.contacts li	{
+	padding: 2px 0;
+}
+.contacts li:first-child	{
+	font-weight: bold;
+	padding-bottom: 7px;
+}
+.contacts li:last-child	{
+	font-size: 88%;
+}
+
+/*---------- flags ----------*/
+
+
+
+.flags	{
+	clear: both;
+}
+.flags input	{
+	display: none;
+}
+.flags label	{
+	display: block;
+	width: 40px;
+	line-height: 10px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 58%;
+	text-decoration: underline;
+}
+.country	{
+	float: right;
+	margin-right: 16px;
+}
+.country div	{
+	width: 40px;
+	height: 40px;
+	margin: 5px 0;
+	border-radius: 50%;
+	border: 1px solid #b3aeae;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	
+}
+.ind	{
+	background-image: url(../img/flags/ind.png);
+}
+.nep	{
+	background-image: url(../img/flags/nep.png);
+}
+.tib	{
+	background-image: url(../img/flags/tib.png);
+}
+.but	{
+	background-image: url(../img/flags/but.png);
+}
+.shri	{
+	background-image: url(../img/flags/shri.png);
+}
+.mald	{
+	background-image: url(../img/flags/mald.png);
+}
+
+
+
 .container .image	{
 	clear: both;
 	background-image: url(../img/ocean.jpg);
