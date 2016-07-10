@@ -1,0 +1,11 @@
+﻿/*header bgclr #128aa7;
+first gradient block #1dcfe2 -> white;
+nav #333333;
+palm #e8f3f6 or rgb(232, 243, 246);
+second gradient block #3cc1d0 -> #0c739f (footer);
+left & right columns #edeef0;
+
+*/
+* 	{
+	box-sizing: border-box;
+}
